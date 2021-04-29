@@ -52,5 +52,10 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 Implement one failing test and at least one passing test:
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+- Passing Test cases
+1.Testcase to check validity of the input Current readings. This covers NULL input
+2.Testcase to calculate total number of readings in given range
+
+- Failing Test cases
+1.Testcase to calculate total number of Continuous readings in given range
+Our current program cannot detect defined continous readings in a give range. Hence test case fail
