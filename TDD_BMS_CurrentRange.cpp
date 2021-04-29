@@ -26,6 +26,6 @@ TEST_CASE("To check total number of readings in given range") {
 TEST_CASE("To check total number of Continous readings(with difference <=1) in given range") {
     int BMS_Current_Range[] = {1,2,3,3,4,8,9,10};
     int numofReadings = sizeof(BMS_Current_Range) / sizeof(BMS_Current_Range[0]);
-    int defined_range[] ={1,5};
+    int defined_range[] ={1,4};
   REQUIRE(BMS_NumofCurrentReadings_InRange(numofReadings,BMS_Current_Range,defined_range) == 5);
 }
