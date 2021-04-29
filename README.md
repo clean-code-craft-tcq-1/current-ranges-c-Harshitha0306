@@ -42,8 +42,8 @@ Range, Readings
 Start test-driven development:
 
 1. Establish quality parameters for your project: What is the maximum complexity you would allow?  CCN - 4
-2. How much duplication would you consider unacceptable? -Adapted
-3. What is the coverage you'll aim for? -Adapted
+2. How much duplication would you consider unacceptable? - 0
+3. What is the coverage you'll aim for? - 100 %
 Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 1. Write the smallest possible failing test.
