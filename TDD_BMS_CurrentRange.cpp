@@ -1,9 +1,8 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 
 #include "catch.hpp"
-extern "C" {
 #include "BMS_CurrentRange.h"
-}
+
 
 TEST_CASE("To check empty BMS Current readings range") {
     int BMS_Current_Range[] = {};
