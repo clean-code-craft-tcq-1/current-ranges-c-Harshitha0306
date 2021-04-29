@@ -27,5 +27,5 @@ TEST_CASE("To check total number of Continous readings(with difference <=1) in g
     int BMS_Current_Range[] = {1,2,4,4,4,8,9,10};
     int numofReadings = sizeof(BMS_Current_Range) / sizeof(BMS_Current_Range[0]);
     int defined_range[] ={1,5};
-  REQUIRE(BMS_NumofCurrentReadings_InRange(numofReadings,BMS_Current_Range,defined_range) == 5);
+  REQUIRE(BMS_NumofCurrentReadings_InRange(numofReadings,BMS_Current_Range,defined_range) == 2);
 }
