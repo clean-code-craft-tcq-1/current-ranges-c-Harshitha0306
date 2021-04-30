@@ -59,7 +59,7 @@ Implement one failing test and at least one passing test:
 2.Testcase to calculate total number of readings in given range.
 
 - Failing Test cases
-1.Testcase to calculate total number of Continuous readings in given range
+1.Testcase to calculate total number of readings in given range
 
 Our current program cannot detect continous readings (eg:when the difference between current and next reading is <=1)in a given range. 
 Hence test case fail
