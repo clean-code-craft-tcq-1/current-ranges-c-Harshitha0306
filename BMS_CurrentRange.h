@@ -1,10 +1,3 @@
-//
-//  Header.h
-//  Assignment_countrange
-//
-//  Created by Harshitha S on 29/04/21.
-//
-
 #ifndef BMS_CurrentRange_h
 #define BMS_CurrentRange_h
 
